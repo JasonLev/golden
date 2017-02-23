@@ -3,8 +3,23 @@ body {
 }
 section {
   height: 100vh;
+  background-size: cover;
 }
 #gold {
   background-image: url(img/gold.png);
-  background-size: cover;
+}
+#sf {
+  background-image: url(img/san-francisco.png);
+}
+#redwood {
+  background-image: url(img/Redwoods.png);
+}
+#hills {
+  background-image: url(img/Hills.png);
+}
+#snow {
+  background-image: url(img/snow-mountain-8.png);
+}
+#ggate {
+  background-image: url(img/ggate.png);
 }
