@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+section {
+  height: 100vh;
+}
+#gold {
+  background-image: url(img/gold.png);
+  background-size: cover;
+}
