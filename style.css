@@ -4,9 +4,13 @@ body {
 section {
   height: 100vh;
   background-size: cover;
+  text-align: center;
+  padding: 1em;
 }
 #gold {
   background-image: url(img/gold.png);
+  color: #fff;
+  padding: 3em;
 }
 #sf {
   background-image: url(img/san-francisco.png);
@@ -22,4 +26,30 @@ section {
 }
 #ggate {
   background-image: url(img/ggate.png);
+}
+
+#logo {
+  float: left;
+}
+nav {
+  float: right;
+}
+nav > a {
+  text-decoration: none;
+  color: #fff;
+  margin: 3em;
+}
+.clearfix {
+  content: none;
+  clear: both;
+}
+div {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  width: 60%;
+  margin: 10px auto;
+}
+p {
+  width: 70%;
+  margin: 5px auto;
 }
