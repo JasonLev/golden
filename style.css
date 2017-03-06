@@ -17,12 +17,14 @@ section {
 }
 #redwood {
   background-image: url(img/Redwoods.png);
+  color: #fff;
 }
 #hills {
   background-image: url(img/Hills.png);
 }
 #snow {
   background-image: url(img/snow-mountain-8.png);
+  color: #fff;
 }
 #ggate {
   background-image: url(img/ggate.png);
@@ -43,13 +45,31 @@ nav > a {
   content: none;
   clear: both;
 }
-div {
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+main {
+  border-top: 5px solid;
+  border-bottom: 5px solid;
   width: 60%;
   margin: 10px auto;
 }
 p {
   width: 70%;
   margin: 5px auto;
+}
+#snowList {
+  border-bottom: none;
+}
+input, textarea {
+  width: 50%;
+  display: block;
+  padding: 3px;
+  margin: 5px auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  border: none;
+  line-height: 2em;
+}
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
 }
