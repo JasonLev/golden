@@ -5,7 +5,7 @@ section {
   height: 100vh;
   background-size: cover;
   text-align: center;
-  padding: 6em;
+  padding: 7em 15em;
 }
 #gold {
   background-image: url(img/gold.png);
@@ -53,14 +53,19 @@ nav > a {
 .tk-didoni-urw {
   font-size: 4.5em;
   margin-bottom: 0.25em;
+  width: 75%;
 }
 .tk-din-condensed {
   text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.tk-adage-script-jf {
+  font-size: 4em;
+  margin: 0;
 }
 #gold > h1 {
   font-size: 6.5em;
-  width: 70%;
-  margin: 70px auto;
+  margin: 15% auto;
   letter-spacing: 3px;
 }
 .clearfix {
@@ -76,6 +81,8 @@ main {
 p {
   width: 70%;
   margin: 5px auto;
+  font-weight: 900;
+  line-height: 1.25em;
 }
 #snowList {
   border-bottom: none;
@@ -92,6 +99,7 @@ input, textarea {
 }
 form > .tk-din-condensed {
   text-transform: none;
+  letter-spacing: 0;
 }
 button {
   background-color: #000;
