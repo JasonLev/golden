@@ -5,7 +5,7 @@ section {
   height: 100vh;
   background-size: cover;
   text-align: center;
-  padding: 7em 15em;
+  padding: 7em 9em;
 }
 #gold {
   background-image: url(img/gold.png);
@@ -53,11 +53,15 @@ nav > a {
 .tk-didoni-urw {
   font-size: 4.5em;
   margin-bottom: 0.25em;
-  /*width: 75%;*/
+  letter-spacing: 2px;
+  width: 60%;
+  margin: 0 auto;
 }
 .tk-din-condensed {
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-size: 2em;
+  margin: 20px;
 }
 .tk-adage-script-jf {
   font-size: 4em;
@@ -79,8 +83,8 @@ main {
   margin: 10px auto;
 }
 p {
-  width: 70%;
-  margin: 5px auto;
+  width: 65%;
+  margin: 10px auto;
   font-weight: 900;
   line-height: 1.25em;
 }
@@ -96,10 +100,12 @@ input, textarea {
   color: #fff;
   border: none;
   line-height: 2em;
+  text-transform: none;
 }
 form > .tk-din-condensed {
-  text-transform: none;
   letter-spacing: 0;
+  line-height: 1em;
+  font-size: 1em;
 }
 button {
   background-color: #000;
