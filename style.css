@@ -57,6 +57,9 @@ nav > a {
   width: 60%;
   margin: 0 auto;
 }
+#redwood .tk-didoni-urw {
+  width: 70%;
+}
 .tk-din-condensed {
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -68,7 +71,8 @@ nav > a {
   margin: 0;
 }
 #gold > h1 {
-  font-size: 6.5em;
+  font-size: 6em;
+  width: 70%;
   margin: 15% auto;
   letter-spacing: 3px;
 }
@@ -100,15 +104,19 @@ input, textarea {
   color: #fff;
   border: none;
   line-height: 2em;
-  text-transform: none;
 }
 form > .tk-din-condensed {
   letter-spacing: 0;
   line-height: 1em;
   font-size: 1em;
+  text-transform: none;
+  padding: 10px;
+  margin: 0 auto;
 }
-button {
+form > button.tk-din-condensed {
+  text-transform: uppercase;
   background-color: #000;
   color: #fff;
   border: none;
+  padding: 10px 40px;
 }
