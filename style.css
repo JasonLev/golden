@@ -10,7 +10,7 @@ section {
 #gold {
   background-image: url(img/gold.png);
   color: #fff;
-  padding: 4em;
+  padding: 2em 4em;
 }
 #sf {
   background-image: url(img/san-francisco.png);
@@ -73,7 +73,7 @@ nav > a {
 #gold > h1 {
   font-size: 6em;
   width: 70%;
-  margin: 15% auto;
+  margin: 15% auto 0;
   letter-spacing: 3px;
 }
 .clearfix {
@@ -111,7 +111,7 @@ form > .tk-din-condensed {
   font-size: 1em;
   text-transform: none;
   padding: 10px;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 form > button.tk-din-condensed {
   text-transform: uppercase;
@@ -119,4 +119,8 @@ form > button.tk-din-condensed {
   color: #fff;
   border: none;
   padding: 10px 40px;
+  margin: 0 auto;
+}
+form {
+  margin: 20px;
 }
