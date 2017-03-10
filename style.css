@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 section {
-  height: 92vh;
+  height: 100vh;
   background-size: cover;
   text-align: center;
   padding: 7em 9em 0;
@@ -29,7 +29,6 @@ section {
 #ggate {
   background-image: url(img/ggate.png);
   padding: 4em;
-  height: 100vh;
 }
 header {
   text-transform: uppercase;
