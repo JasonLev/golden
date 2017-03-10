@@ -2,10 +2,10 @@ body {
   margin: 0;
 }
 section {
-  height: 100vh;
+  height: 92vh;
   background-size: cover;
   text-align: center;
-  padding: 7em 9em;
+  padding: 7em 9em 0;
 }
 #gold {
   background-image: url(img/gold.png);
@@ -28,6 +28,8 @@ section {
 }
 #ggate {
   background-image: url(img/ggate.png);
+  padding: 4em;
+  height: 100vh;
 }
 header {
   text-transform: uppercase;
