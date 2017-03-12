@@ -34,6 +34,7 @@ div {
 #ggate {
   background-image: url(img/ggate.png);
   padding: 4em;
+  height: 100%;
 }
 header {
   text-transform: uppercase;
