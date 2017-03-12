@@ -5,7 +5,12 @@ section {
   height: 100vh;
   background-size: cover;
   text-align: center;
-  padding: 7em 9em 0;
+  /*padding: 7em 9em 0;*/
+}
+div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 #gold {
   background-image: url(img/gold.png);
@@ -72,10 +77,13 @@ nav > a {
   margin: 0;
 }
 #gold > h1 {
-  font-size: 6em;
+  font-size: 6vw;
   width: 70%;
-  margin: 15% auto 0;
+  /*margin: 15% auto 0;*/
   letter-spacing: 3px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .clearfix {
   content: none;
