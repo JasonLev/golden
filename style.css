@@ -134,3 +134,17 @@ form > button.tk-din-condensed {
 form {
   margin: 20px;
 }
+
+/*media queries for web responsiveness*/
+Tablets:
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  nav {
+    display: none;
+  }
+  #logo {
+  float: none;
+  }
+  .displayCouldChange {
+    display: block;
+  }
+}
