@@ -102,6 +102,9 @@ p {
   font-weight: 900;
   line-height: 1.25em;
 }
+#redwood .displayCouldChange {
+  display: block;
+}
 #snowList {
   border-bottom: none;
 }
@@ -136,8 +139,8 @@ form {
 }
 
 /*media queries for web responsiveness*/
-Tablets:
-@media screen and (max-width: 992px) and (min-width: 768px) {
+/*Tablets and mobile phone:*/
+@media screen and (max-width: 992px) {
   nav {
     display: none;
   }
@@ -146,5 +149,17 @@ Tablets:
   }
   .displayCouldChange {
     display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  #gold > h1 {
+    width: auto;
+    font-size: 4.5em;
+  }
+  #redwood .displayCouldChange {
+    display: inline;
+  }
+  main, section h1 {
+    width: auto;
   }
 }
