@@ -102,7 +102,7 @@ p {
   font-weight: 900;
   line-height: 1.25em;
 }
-#redwood .displayCouldChange {
+section .displayCouldChange {
   display: block;
 }
 #snowList {
@@ -154,13 +154,32 @@ form {
 @media screen and (max-width: 768px) {
   #gold > h1 {
     width: 60%;
-    font-size: 4.5em;
+    font-size: 5.5em;
   }
   #redwood .displayCouldChange,
   #ggate .displayCouldChange {
     display: inline;
   }
-  main, section h1, #redwood .tk-didoni-urw  {
-    width: auto;
+  /*main .displayCouldChange {
+    display: block;
+  }*/
+  main .tk-din-condensed {
+    letter-spacing: 5px;
+  }
+  main, section .tk-didoni-urw  {
+    width: 85%;
+  }
+  #hills {
+    width: 90%;
+  }
+  #ggate {
+    padding: 4em 0;
+  }
+  form .tk-din-condensed {
+    font-size: 2em;
+    width: 80%;
+  }
+  form button.tk-din-condensed {
+    width: 60%;
   }
 }
