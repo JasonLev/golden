@@ -137,6 +137,8 @@ form > button.tk-din-condensed {
   border: none;
   padding: 10px 40px;
   margin: 0 auto;
+  letter-spacing: 2px;
+  font-size: 1.25em;
 }
 form {
   margin: 20px;
@@ -160,6 +162,9 @@ form {
   .displayCouldChange {
     display: block;
   }
+  p {
+    width: 85%;
+  }
 }
 @media screen and (max-width: 768px) {
   #gold > h1 {
@@ -170,13 +175,14 @@ form {
   #ggate .displayCouldChange {
     display: inline;
   }
-  #hills .displayCouldChange {
+  #hills .displayCouldChange,
+  #sf .displayCouldChange {
     display: block;
   }
   main .tk-din-condensed {
     letter-spacing: 5px;
   }
-  #hills {
+  #hills h1 {
     width: 90%;
   }
   #ggate {
@@ -186,7 +192,7 @@ form {
     font-size: 2em;
     width: 80%;
   }
-  form button.tk-din-condensed {
+  form > button.tk-din-condensed {
     width: 60%;
   }
 }
