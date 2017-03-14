@@ -153,13 +153,14 @@ form {
 }
 @media screen and (max-width: 768px) {
   #gold > h1 {
-    width: auto;
+    width: 60%;
     font-size: 4.5em;
   }
-  #redwood .displayCouldChange {
+  #redwood .displayCouldChange,
+  #ggate .displayCouldChange {
     display: inline;
   }
-  main, section h1 {
+  main, section h1, #redwood .tk-didoni-urw  {
     width: auto;
   }
 }
