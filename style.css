@@ -105,6 +105,10 @@ p {
 section .displayCouldChange {
   display: block;
 }
+#gold .displayCouldChange,
+#sf .displayCouldChange {
+  display: inline;
+}
 #snowList {
   border-bottom: none;
 }
@@ -147,6 +151,9 @@ form {
   #logo {
   float: none;
   }
+  main, section .tk-didoni-urw  {
+    width: 80%;
+  }
   .displayCouldChange {
     display: block;
   }
@@ -160,9 +167,10 @@ form {
   #ggate .displayCouldChange {
     display: inline;
   }
-  /*main .displayCouldChange {
+  #gold .displayCouldChange,
+  #hills .displayCouldChange {
     display: block;
-  }*/
+  }
   main .tk-din-condensed {
     letter-spacing: 5px;
   }
