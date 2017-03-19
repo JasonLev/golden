@@ -49,8 +49,8 @@ header {
 nav {
   float: right;
   letter-spacing: 3px;
-  font-size: 2em;
-  /*margin-top: 1em;*/
+  font-size: 20px;
+  margin-top: 1em;
 }
 nav > a {
   text-decoration: none;
