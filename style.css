@@ -42,20 +42,20 @@ header {
 
 #logo {
   float: left;
-  border-bottom: #fff solid 5px;
+  border-bottom: #fff solid 4px;
   letter-spacing: 5px;
-  font-size: 4em;
+  font-size: 35px;
 }
 nav {
   float: right;
   letter-spacing: 3px;
   font-size: 2em;
-  margin-top: 1em;
+  /*margin-top: 1em;*/
 }
 nav > a {
   text-decoration: none;
   color: #fff;
-  margin: 0.5em;
+  margin: 1em;
 }
 .tk-didoni-urw {
   font-size: 4.5em;
@@ -83,8 +83,9 @@ nav > a {
   /*margin: 15% auto 0;*/
   letter-spacing: 3px;
   position: relative;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
+  font-weight: 200;
 }
 .clearfix {
   content: none;
