@@ -63,6 +63,7 @@ nav > a {
   letter-spacing: 2px;
   width: 60%;
   margin: 0 auto;
+  font-weight: 200;
 }
 #redwood .tk-didoni-urw {
   width: 70%;
@@ -92,16 +93,16 @@ nav > a {
   clear: both;
 }
 main {
-  border-top: 5px solid;
-  border-bottom: 5px solid;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
   width: 60%;
   margin: 10px auto;
 }
 p {
-  width: 65%;
-  margin: 10px auto;
+  width: 60%;
+  margin: 20px auto;
   font-weight: 900;
-  line-height: 1.25em;
+  line-height: 1.5em;
 }
 section .displayCouldChange {
   display: block;
