@@ -71,12 +71,12 @@ nav > a {
 .tk-din-condensed {
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 1.5em;
-  margin: 25px;
-}
-main .tk-din-condensed {
   font-size: 2em;
   margin: 20px;
+}
+main.snowList .tk-din-condensed {
+  margin: 25px;
+  font-size: 1.5em;
 }
 .tk-adage-script-jf {
   font-size: 4em;
