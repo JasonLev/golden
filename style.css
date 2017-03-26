@@ -9,7 +9,7 @@ section {
 }
 div {
   position: relative;
-  top: 50%;
+  top: 47%;
   transform: translateY(-50%);
 }
 #gold {
@@ -42,20 +42,20 @@ header {
 
 #logo {
   float: left;
-  border-bottom: #fff solid 5px;
+  border-bottom: #fff solid 4px;
   letter-spacing: 5px;
-  font-size: 4em;
+  font-size: 35px;
 }
 nav {
   float: right;
   letter-spacing: 3px;
-  font-size: 2em;
+  font-size: 20px;
   margin-top: 1em;
 }
 nav > a {
   text-decoration: none;
   color: #fff;
-  margin: 0.5em;
+  margin: 1em;
 }
 .tk-didoni-urw {
   font-size: 4.5em;
@@ -63,6 +63,7 @@ nav > a {
   letter-spacing: 2px;
   width: 60%;
   margin: 0 auto;
+  font-weight: 200;
 }
 #redwood .tk-didoni-urw {
   width: 70%;
@@ -72,6 +73,10 @@ nav > a {
   letter-spacing: 3px;
   font-size: 2em;
   margin: 20px;
+}
+main#snowList .tk-din-condensed {
+  margin: 25px;
+  font-size: 1.5em;
 }
 .tk-adage-script-jf {
   font-size: 4em;
@@ -83,24 +88,25 @@ nav > a {
   /*margin: 15% auto 0;*/
   letter-spacing: 3px;
   position: relative;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
+  font-weight: 200;
 }
 .clearfix {
   content: none;
   clear: both;
 }
 main {
-  border-top: 5px solid;
-  border-bottom: 5px solid;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
   width: 60%;
   margin: 10px auto;
 }
 p {
-  width: 65%;
-  margin: 10px auto;
+  width: 60%;
+  margin: 20px auto;
   font-weight: 900;
-  line-height: 1.25em;
+  line-height: 1.5em;
 }
 section .displayCouldChange {
   display: block;
