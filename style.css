@@ -157,7 +157,8 @@ form {
     display: none;
   }
   #logo {
-  float: none;
+    float: none;
+    font-size: 50px;
   }
   main,
   section .tk-didoni-urw,
@@ -172,7 +173,7 @@ form {
     width: 85%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   #gold > h1 {
     width: 60%;
     font-size: 5.5em;
