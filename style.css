@@ -173,7 +173,7 @@ form {
     width: 85%;
   }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   #gold > h1 {
     width: 60%;
     font-size: 5.5em;
